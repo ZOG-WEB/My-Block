@@ -18,7 +18,7 @@ body {
     bottom: 0;
     top: 0;
     opacity: 0.83;
-    background: linear-gradient( #bcf08b 0%, #7dd629 100%);
+    background: linear-gradient(#bcf08b 0%, #7dd629 100%);
     display: table;
     width: 100%;
     height: 100%;
@@ -75,39 +75,62 @@ p {
 }
 
 .menu {
-    list-style: none;
     font-size: 19px;
     font-family: inherit;
     position: fixed;
-    top: 10px;
-    right: 30px;
+    top: 0px;
     z-index: 10;
     cursor: pointer;
+    background-color: white;
+    width: 100%;
+
 }
 
 .links {
-    float: left;
     color: blueviolet;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 20px;
+    padding-right: 15px;
     font-family: serif;
     font-size: 25px;
+    display: inline;
 }
 
 .links:hover {
-    background-color:#66ffe0 ;
+    background-color: #66ffe0;
+    font-size: 29px;
+    text-decoration: underline;
+    -
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-a{
+a {
     text-decoration: none;
+    color: chartreuse;
+    text-shadow: 2px 2px black
 }
 
-.article:hover{
+.article:hover {
     color: aqua;
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+#contact{
+    background-color: deeppink;
+}
+.contact1 a{
+    color: white;
+    text-shadow: none;
+}
+.contact1 h3{
+    display: inline;
+}
+#contact iframe{
+    width: 100%;
 }
